@@ -21,7 +21,7 @@ Game::Game()
 void Game::update() {
     Position nextHead = snake.getHead();
 
-    switch (snake.getDirection()) {
+    switch (snake.getDirection()) { // Check next move
     case Direction::up:
         nextHead.y--;
         break;

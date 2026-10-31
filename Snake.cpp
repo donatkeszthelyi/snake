@@ -29,9 +29,9 @@ void Snake::move(bool grow) {
         newHead.y++;
         break;
     case Direction::left:
-        newHead.x -= 2;
+        newHead.x -= 2; // Faster movement when horizontal to accomodate the uneven line-height to
+                        // line-width ratio
         break;
-
     case Direction::right:
         newHead.x += 2;
         break;

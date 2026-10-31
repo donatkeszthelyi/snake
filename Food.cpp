@@ -5,7 +5,7 @@
 using namespace std;
 
 Food::Food(int boardWidth, int boardHeight, const Snake &snake) {
-    std::srand(std::time(nullptr));
+    srand(std::time(nullptr));
     spawn(boardWidth, boardHeight, snake);
 }
 
