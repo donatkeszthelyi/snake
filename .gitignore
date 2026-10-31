@@ -1,0 +1,9 @@
+# Compiled executable
+game
+
+# Object files
+*.o
+
+# macOS
+.DS_Store
+
